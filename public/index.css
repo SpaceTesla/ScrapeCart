@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.form input {
+  width: 30%;
+  padding: 10px;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 2px solid #6f2cf4;
+  border-bottom: 2px solid #6f2cf4;
+  font-size: 20px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form select {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #6f2cf4;
+  color: #6f2cf4;
+}
+
+.form select:focus {
+  outline: none;
+}
+
+.form button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 0 4px 4px 0;
+  border: 2px solid #6f2cf4;
+  background-color: #6f2cf4;
+  color: white;
+}

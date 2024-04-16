@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="/index.css" />
+    <script defer src="/index.js"></script>
+  </head>
+  <body>
+    <h1>Search</h1>
+    <form method="GET" action="/search" id="search-form">
+      <div class="form">
+        <select name="domain" id="domain">
+          <option value="select">Select</option>
+          <option value="amazon">Amazon</option>
+          <option value="flipkart">Flipkart</option>
+          <!-- <option value="myntra">Myntra</option> -->
+        </select>
+        <input type="text" name="q" />
+        <button type="submit">Search</button>
+      </div>
+    </form>
+  </body>
+</html>
